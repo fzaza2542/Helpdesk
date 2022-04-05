@@ -61,6 +61,7 @@ const Update = () => {
               onChange={(e) => setTitle(e.target.value)}
               value={title}
               required
+              maxLength={100}
             />
             <Form.Control.Feedback type="invalid">
               Please fill all the fields
@@ -74,6 +75,7 @@ const Update = () => {
               onChange={(e) => setDescription(e.target.value)}
               value={description}
               required
+              maxLength={200}
             />
             <Form.Control.Feedback type="invalid">
               Please fill all the fields
