@@ -97,6 +97,8 @@ const CreateTicket = () => {
               onChange={(e) => setStatus(e.target.value)}
               value={status}
               required
+              disabled
+              readOnly
             />
             <Form.Control.Feedback type="invalid">
               Please fill all the fields
