@@ -36,9 +36,10 @@ class App extends Component {
               <Route path="/" element={<View />} />
             </Routes>
           </BrowserRouter>
+          <Footer />
         </main>
 
-        <Footer />
+        
       </Container>
     );
   }

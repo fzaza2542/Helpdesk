@@ -13,9 +13,16 @@ body {
 
 main{
   width: 100%;
-  height: 100%;
+  height: 100vh;
  
 }
+@media screen and (max-width: 819px) {
+  main{
+    width: 100%;
+    height: 100%;
+  }
+}
+  
 
 /* =================== */
 .bubbels{

@@ -1,11 +1,12 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { HiOutlineMail, HiOutlineDeviceMobile } from "react-icons/hi";
+import './Footer.css'
 
 const Footer = () => {
   return (
     <footer>
-      <Card className="text-center bg-dark mt-2 ">
+      <Card className="text-center bg-dark dd ">
         <Card.Body>
           <Card.Title className="text-white">Contact Me</Card.Title>
           <Card.Text className="text-white d-flex">
