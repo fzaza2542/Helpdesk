@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+}
+
+.item {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0.5rem;
+    padding-bottom: 6rem;
+    
+}
+.box{
+    height: 100%;
+}
+
+.body-card {
+    max-width: 100;
+    height: 100%;
+}
+.box-card {
+  height: 100%;
+  
+}
+
+.item-con {
+    max-width: 100%;
+    padding: 0.3rem 0.3rem;
+    background-color: #19202e;
+    margin: 10px 0;
+    box-shadow: 1px 1px 4px 1px rgb(84, 75, 119);
+    
+}
+
+.box-card:hover {
+    background-color: #1c1e23;
+    color: #fff;
+}
+
+@media screen and (max-width: 1575px) {
+    .item {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .item {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .item {
+        grid-template-columns: auto;
+    }
+}
+

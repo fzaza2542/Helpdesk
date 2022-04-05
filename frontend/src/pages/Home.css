@@ -1,0 +1,9 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    max-width: 100%;
+}
+.btn-box{
+    margin: 5px;
+}
